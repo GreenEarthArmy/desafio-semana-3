@@ -1,0 +1,110 @@
+@media only screen and (min-width: 768px) {
+
+    /*  IDS  */
+    #link {
+        color: orange;
+    }
+
+    #link_youtube {
+        position: center;
+    }
+
+    #overflow-icon {
+        width: 25%;
+    }
+
+    /* CLASSES */
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+    .flex-container hgroup {
+        justify-self: center;
+    }
+
+    .titulo {
+        color: white;
+    }
+
+    .main-text {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+    /* TAGS DO HTML*/
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: blue;
+        background-size: cover;
+    }
+
+    header {
+        display: flexbox;
+        align-items: center;
+    }
+
+    div {
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    /*  IDS  */
+
+    #link {
+        color: orange;
+    }
+
+    #link_youtube {
+        position: center;
+    }
+
+    #overflow-icon {
+        width: auto;
+    }
+
+    /* CLASSES */
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .titulo {
+        color: white;
+    }
+
+    .main-text {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+    /* TAGS DO HTML*/
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background: orange;
+        background-size: cover;
+    }
+
+    header {
+        display: flexbox;
+        align-items: center;
+    }
+
+    div {
+        margin: 10px;
+
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
